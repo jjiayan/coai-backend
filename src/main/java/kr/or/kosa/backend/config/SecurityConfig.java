@@ -99,7 +99,7 @@ public class SecurityConfig {
                 "https://api.co-ai.run",
                 "https://www.co-ai.run",
                 "https://co-ai.run",
-                "https://frontend-bib.pages.dev"          // 추가
+                "https://co-ai.pages.dev"          // 추가
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(List.of("*"));
